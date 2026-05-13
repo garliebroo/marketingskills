@@ -26,6 +26,7 @@ Want to add a new marketing skill? We'd love your contribution!
 - **content** — Blog posts, content calendars, editorial planning
 - **email** — Drip campaigns, newsletters, subject lines
 - **paid-ads** — Google Ads, Meta Ads, campaign structure
+- **branding** — Brand voice, messaging frameworks, positioning statements
 
 ### How to Submit
 
@@ -53,9 +54,12 @@ Each skill file should follow this structure:
       "output": "Expected output example"
     }
   ],
-  "tags": ["tag1", "tag2"]
+  "tags": ["tag1", "tag2"],
+  "tone": "professional"
 }
 ```
+
+> **Note (personal):** I added `"tone"` as an optional field to the schema — useful for skills where voice/tone matters a lot (e.g. copywriting, email). Values like `"professional"`, `"casual"`, `"witty"` etc. Might propose this upstream if it proves useful.
 
 ## License
 
