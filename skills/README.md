@@ -55,11 +55,14 @@ Each skill file should follow this structure:
     }
   ],
   "tags": ["tag1", "tag2"],
-  "tone": "professional"
+  "tone": "professional",
+  "target_audience": "b2b"
 }
 ```
 
 > **Note (personal):** I added `"tone"` as an optional field to the schema — useful for skills where voice/tone matters a lot (e.g. copywriting, email). Values like `"professional"`, `"casual"`, `"witty"` etc. Might propose this upstream if it proves useful.
+
+> **Note (personal):** Also added `"target_audience"` as another optional field. Thinking values like `"b2b"`, `"b2c"`, `"technical"`, `"general"` — a lot of marketing copy changes pretty significantly depending on who you're writing for. Will see if it's actually useful in practice before proposing upstream.
 
 ## License
 
