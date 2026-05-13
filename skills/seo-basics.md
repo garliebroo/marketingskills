@@ -44,6 +44,7 @@ Search Engine Optimization (SEO) is the practice of optimizing web content and s
 | Semrush | All-in-one SEO suite | Paid |
 | Screaming Frog | Technical site audits | Free/Paid |
 | Ubersuggest | Beginner keyword research | Free/Paid |
+| Google PageSpeed Insights | Check Core Web Vitals scores | Free |
 
 ## Skill Level
 
@@ -61,3 +62,4 @@ Search Engine Optimization (SEO) is the practice of optimizing web content and s
 - [Google's SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 - [Moz Beginner's Guide to SEO](https://moz.com/beginners-guide-to-seo)
 - [Ahrefs Blog](https://ahrefs.com/blog)
+- [Google PageSpeed Insights](https://pagespeed.web.dev/) — useful for quickly checking Core Web Vitals on any URL
